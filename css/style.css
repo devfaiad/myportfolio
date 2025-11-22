@@ -1,0 +1,360 @@
+*{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: #CCCCCC;
+}
+.container{
+ color: black;
+ margin: auto;
+ width: 80%;
+ padding: 30px 0 0 0;
+ font-family: sans-serif;
+ line-height: 25px;
+}
+.sectionName{
+    text-align: center;
+    padding: 150px 0 0 0;
+}
+.sectionName p{
+   
+    text-align: center;
+    border: 1px solid #F86000;
+    border-radius: 20px;
+    color: #F86000;
+    padding: 10px;
+    width: fit-content;
+    margin-left: 45%;
+}
+.sectionName h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+.header{
+    
+  }
+ 
+.nav{
+    background-color: cadetblue;
+    height: 30px;
+    padding: 20px;
+    border-radius: 50px;
+}
+.nav ul{
+    list-style-type: none;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: cadetblue;
+    margin: -25px 0 0 150px;
+}
+.nav li{
+    flex: 5%;
+    padding: 20px;
+    background-color: cadetblue;
+    font-size: 20px;
+    color: white;
+    margin-top: -30px;
+    
+}
+.talk{
+    
+    width:100px;
+    border:2px solid white;
+    padding:10px;
+    border-radius: 30px;
+    background-color: cadetblue;
+    margin: -15px 0 0 80px;
+   
+}
+.hero{
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hero-text{
+    flex: 30%;
+    padding: 100px 50px 50px 50px;    
+}
+.hero-text h1{
+    font-size: 60px;
+    padding: 20px;
+}
+.hero-text h2{
+    font-size: 35px;
+    border: 2px solid snow;
+    padding: 20px;
+    width: fit-content;
+}
+.hero-text p{
+    padding: 20px;
+}
+.hero-text-btn{
+    width: 150px;
+    background: linear-gradient(90deg,rgba(253, 29, 29, 1) 16%, rgba(227, 161, 30, 1) 100%);
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+    border-radius: 10px;
+}
+.hero-text i{
+    font-size: 30px;
+    padding: 20px 10px;
+}
+.hero-img{
+    flex: 30%;
+    padding: 20px;
+}
+.h-img{
+    background-image: url('../images/1.png');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.Experiance{
+    height: 200px;
+    padding: 150px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ExperianceLeft{
+    flex: 25%;
+    padding: 20px;
+}
+.ExperianceNumber{
+    float: left;
+    padding: 70px 30px;
+    width: 200px;
+    background-color: #313131;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+.ExperianceNumber h1{
+    font-size: 60px;
+    color: #F86000;
+    background-color: #313131
+}
+.ExperianceNumber h3{
+    background-color: #313131
+}
+.ExperianceRight{
+    flex: 25%;
+    padding: 20px;          
+}
+.image{
+    padding: 150px 0 0 0;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imageLeft{
+    flex: 40%;
+    padding: 20px;
+}
+.imageRight{    
+    flex: 20%;
+    padding: 20px;
+}
+.services{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.service{
+    flex: 20%;
+    padding: 20px;
+    background-color: #191919;
+    border: 1px solid orange;
+    margin: 10px;
+    border-radius: 20px;
+}
+.service h3,li,ul,h2,img{
+    background-color: #191919;
+    text-align: left;
+    padding: 10px;
+}
+.service p{
+    background: #191919;
+    text-align: left;
+    padding: 10px;
+    color:#CCCCCC;
+}
+.service img{
+    margin-left: -70%;
+}
+
+
+
+.portfolio{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project{
+    flex: 25%;
+    padding: 20px;
+    background: #524949;
+    background: linear-gradient(90deg, rgba(82, 73, 73, 1) 0%, rgba(161, 146, 146, undefined) 41%);
+    border-radius: 20px;
+    margin: 10px;
+}
+.project h2{
+background-color: #524949;
+}
+.skills{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.skill1{
+    flex: 5%;
+    width: 100px;
+    border: 1px solid #534d4d;
+    border-radius: 60px;
+    padding: 40px;
+    margin: 10px;
+    background-color: #262323;
+    height: 250px;
+    margin-top: 60px;
+}
+.skill1 img{
+    border-radius: 100px;
+}
+.skill1 h1,h2{
+    background-color: #262323;
+    text-align: center;
+    padding: 20px 0;
+}
+.skill2{
+    flex: 5%;
+    width: 100px;
+    border: 1px solid #534d4d;
+    border-radius: 60px;
+    padding: 40px;
+    margin: 10px;
+    background-color: #262323;
+    height: 320px;
+}
+.skill2 img{
+    border-radius: 100px;
+}
+.skill2 h1,h2{
+    background-color: #262323;
+    text-align: center;
+    padding: 30px 0;
+}
+.education1{
+    width: 50%;
+    background-color: #2e2c2c;
+    padding: 30px;
+    border-radius: 20px;
+}
+.education1 h3{
+    background-color: #2e2c2c;
+    padding: 10px;
+}
+.education1 h4,p{
+    background-color: #2e2c2c;
+    color: #CCCCCC;
+    padding: 10px;
+}
+.education2{
+    width: 50%;
+    background-color: #2e2c2c;
+    padding: 30px;
+    margin: 20px 0 20px 500px;
+    border-radius: 20px;
+}
+.education2 h3{
+    background-color: #2e2c2c;
+    padding: 10px;
+}
+.education2 h4,p{
+    background-color: #2e2c2c;
+    color: #CCCCCC;
+    padding: 10px;
+}
+.educationYear{
+    background: linear-gradient(90deg,rgba(253, 29, 29, 1) 16%, rgba(227, 161, 30, 1) 100%);
+    float: right;
+    border-radius: 30px;
+    padding: 15px;
+    margin-top: -30px;
+}
+.pricing{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pricing1{
+    flex:20%;
+    background-color: #2e2c2c;
+    padding:20px;
+    border-radius: 30px;
+    margin: 10px;
+}
+.pricing1 h2,h4{
+    background-color: #2e2c2c;
+    text-align: left;
+    padding: 5px;
+}
+.pricing1 h3{
+    background-color: #2e2c2c;
+    float: left;
+}
+.tic{
+    background: linear-gradient(90deg,rgba(253, 29, 29, 1) 16%, rgba(227, 161, 30, 1) 100%);
+    border-radius: 100%;
+    width: 20px;
+    float: left;
+}
+
+.contact{
+    height: 700px;
+    width: 100%;
+    background: #202020;
+    padding: 30px;
+    margin-top: 150px;
+    border-radius: 50px;
+}
+.contact h1{
+    font-size: 80px;
+    color: #F86000;
+    text-align: center;
+    padding: 50px;
+    background: none;
+}
+.contactX{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.contact1{
+    flex: 20%;
+    padding: 20px;
+    background: #202020;
+}
+.contact1 form{
+    background: #202020;
+    height: 400px;
+}
+.contact1 input,textarea{
+    border: 1px solid gray;
+    padding: 15px;
+    margin: 5px;
+}
+
