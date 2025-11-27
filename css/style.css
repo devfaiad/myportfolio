@@ -1,23 +1,33 @@
 *{
-    background-color: black;
     color: white;
     margin: 0;
     padding: 0;
+    line-height: 40px;
+}
+.normal{
+    display: block;
+}
+.abnormal{
+    display: none;
+}
+h1{
+    background-color: none;
 }
 p{
     color: #CCCCCC;
+    background:none;
+    line-height: 33px;
 }
 .container{
- color: black;
  margin: auto;
- width: 80%;
+ width: 85%;
  padding: 30px 0 0 0;
  font-family: sans-serif;
  line-height: 25px;
 }
 .sectionName{
     text-align: center;
-    padding: 150px 0 0 0;
+    padding: 100px 0 0 0;
 }
 .sectionName p{
    
@@ -35,31 +45,44 @@ p{
     font-size: 40px;
 }
 .header{
-    
+    background: #1A1A1A;
+    height: 600px;
   }
- 
+ .mobileNav{
+    display: none;
+ }
 .nav{
-    background-color: cadetblue;
+    background-color: #313030;
     height: 30px;
-    padding: 20px;
+    padding: 30px;
     border-radius: 50px;
+    position: fixed;
+    width: 82%;
 }
 .nav ul{
     list-style-type: none;
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    background-color: cadetblue;
-    margin: -25px 0 0 150px;
+    background-color: #313030;
+    margin: -30px 0 0 150px;
+    padding: 0;
 }
 .nav li{
     flex: 5%;
-    padding: 20px;
-    background-color: cadetblue;
+    list-style: none;
+    padding: 0px 20px;
+    background-color: #313030;
     font-size: 20px;
     color: white;
-    margin-top: -30px;
+    margin-top: -12px;
+    margin-left: 20px;
     
+}
+.nav li a{
+    text-decoration: none;
+    padding: 0px;
+    font-size: 15px;
 }
 .talk{
     
@@ -67,36 +90,44 @@ p{
     border:2px solid white;
     padding:10px;
     border-radius: 30px;
-    background-color: cadetblue;
-    margin: -15px 0 0 80px;
+    background-color: #313030;
+   margin-top: -12PX;
    
 }
 .hero{
     height: 550px;
     display: flex;
     flex-wrap: wrap;
+    background: #1A1A1A;
 }
 .hero-text{
-    flex: 30%;
-    padding: 100px 50px 50px 50px;    
+    flex: 35%;
+    padding: 150px 50px 50px 50px;    
+    
 }
 .hero-text h1{
     font-size: 60px;
-    padding: 20px;
+    padding: 30px 20px;
+    background-color: #1A1A1A;
 }
+
 .hero-text h2{
     font-size: 35px;
     border: 2px solid snow;
-    padding: 20px;
+    padding: 30px 20px;
     width: fit-content;
+    background-color: #1A1A1A;
 }
+
 .hero-text p{
-    padding: 20px;
+    padding: 30px 20px;
+    background-color: #1A1A1A;
 }
+
 .hero-text-btn{
     width: 150px;
     background: linear-gradient(90deg,rgba(253, 29, 29, 1) 16%, rgba(227, 161, 30, 1) 100%);
-    padding: 20px;
+    padding: 18px;
     text-align: center;
     font-size: 20px;
     float: left;
@@ -108,7 +139,8 @@ p{
 }
 .hero-img{
     flex: 30%;
-    padding: 20px;
+    padding: 100px 20px;
+   
 }
 .h-img{
     background-image: url('../images/1.png');
@@ -119,6 +151,10 @@ p{
     height: 550px;
     display: flex;
     justify-content: center;
+   
+}
+.h-img img{
+    width: 60%;
 }
 
 .Experiance{
@@ -146,8 +182,9 @@ p{
     color: #F86000;
     background-color: #313131
 }
-.ExperianceNumber h3{
-    background-color: #313131
+.ExperianceNumber h4{
+    background-color: #313131;
+    text-align: center;
 }
 .ExperianceRight{
     flex: 25%;
@@ -158,14 +195,22 @@ p{
     height: 300px;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 .imageLeft{
     flex: 40%;
     padding: 20px;
+    
+}
+.imageLeft img{
+    width: 100%;
 }
 .imageRight{    
     flex: 20%;
     padding: 20px;
+}
+.imageRight img{ 
+    width: 100%;
 }
 .services{
     text-align: center;
@@ -180,7 +225,7 @@ p{
     margin: 10px;
     border-radius: 20px;
 }
-.service h3,li,ul,h2,img{
+.service h2,h3,li,ul,img{
     background-color: #191919;
     text-align: left;
     padding: 10px;
@@ -224,7 +269,7 @@ background-color: #524949;
     flex: 5%;
     width: 100px;
     border: 1px solid #534d4d;
-    border-radius: 60px;
+    border-radius: 100px;
     padding: 40px;
     margin: 10px;
     background-color: #262323;
@@ -237,13 +282,13 @@ background-color: #524949;
 .skill1 h1,h2{
     background-color: #262323;
     text-align: center;
-    padding: 20px 0;
+    padding:  0;
 }
 .skill2{
     flex: 5%;
     width: 100px;
     border: 1px solid #534d4d;
-    border-radius: 60px;
+    border-radius: 100px;
     padding: 40px;
     margin: 10px;
     background-color: #262323;
@@ -324,11 +369,11 @@ background-color: #524949;
 }
 
 .contact{
-    height: 700px;
-    width: 100%;
+    height: 900px;
+    width: 95%;
     background: #202020;
     padding: 30px;
-    margin-top: 150px;
+    margin-top: 50px;
     border-radius: 50px;
 }
 .contact h1{
@@ -357,4 +402,282 @@ background-color: #524949;
     padding: 15px;
     margin: 5px;
 }
+.inputName input{
+    width: 91%;
+}
+input{
+    width: 42%;
+    float: left;
+}
+textarea{
+    width: 91%;
+}
 
+
+@media (max-width: 1320px){
+    .normal{
+        display: none;
+    }
+    .abnormal{
+        display: block;
+        color: #F86000;
+        background-color: #191919;
+    }
+}
+
+@media (max-width:440px){
+    .normal{
+        display: block;
+    }
+    .abnormal{
+        display: none;
+    }
+    .sectionName h1{
+        line-height: 50px;
+    }
+    .container{
+        width: fit-content;
+        padding: 10px;
+        margin: 0;
+        
+    }
+    .header{
+        height: 1020px;
+    }
+ .nav{
+    display: none;
+ }
+ .hero-text{
+    flex: 100%;
+    padding: 100px 0 20px 0;    
+    
+}
+.hero-text h1{
+    font-size: 50px;
+    padding: 10px 0 40px 0; 
+    text-align: center;
+}
+
+.hero-text h2{
+    font-size: 25px;
+    border: 2px solid snow;
+    padding: 30px 0;
+    width: fit-content;
+    background-color: #1A1A1A;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.hero-text p{
+    padding: 30px 0;
+    background-color: #1A1A1A;
+    width: fit-content;
+    text-align: center;
+}
+.hero-text-btn{
+    float:none;
+    margin-left: 120px;
+   
+}
+.mobileIcon{
+    margin-left: 120px;
+}
+.hero-img {
+    flex: 80%;
+    padding: 0;
+}
+.h-img {
+    height: 400px;
+}
+.Experiance{
+    padding: 80px 0 0px 0; 
+}
+
+.ExperianceLeft{
+    display: none;
+}
+.ExperianceRight{
+    flex: 75%;
+    padding: 0;     
+    text-align: left;     
+}
+.image{
+    margin-top: 150px;
+    padding: 0 0 150px 0;
+}
+.imageLeft{
+    flex: 70%;
+    padding: 20px 0;
+}
+.imageLeft img{
+    padding: 0;
+}
+.imageRight{
+    flex: 70%;
+    padding: 0 ;
+}
+.imageRight img{ 
+    width: 98%;
+    padding: 0 ;
+}
+.project{
+    flex: 80%;
+    padding: 0px;
+}
+.skill1{
+    flex: 20%;
+    margin: 50px 10px ;
+}
+.skill1 h1, h2 {
+    padding: 20px 0;
+}
+.skill2{
+    flex: 20%;
+    margin:  50px 10px;
+    height: 250px;
+}
+.skill2 h1, h2 {
+    padding: 20px 0;
+}
+.education1{
+    width: 85%;
+    margin-bottom: 20px;
+}
+ .education2{
+    width: 85%;
+    margin: 0;
+    margin-bottom: 20px;
+ }
+ .pricing1{
+    flex:80%;
+ }
+ 
+ .contact{
+    width: 350px;
+ }
+ .contact .hero-text-btn{
+    margin-left: 90px;
+ }
+ .contact1{
+    padding: 0;
+    flex: 60%;
+ }
+ .contact1 img{ 
+    display: none;
+ }
+ .inputName{
+    margin-bottom: -40px;
+    padding: 0;
+ }
+ input{
+    width: 91%;
+    float: none;
+    margin-top: 0;
+ }
+ .contact h1{
+    font-size: 40px;
+}
+
+}
+
+@media (max-width:420px){
+    .hero-text h1 {
+        font-size: 40px;
+    }
+    .hero-text-btn {
+        margin-left: 100px;
+    }
+    .mobileIcon{
+        margin-left: 100px;
+    }
+    .image{
+        margin-top: 200px;
+    }
+    .sectionName
+     {
+        padding: 150px 0 0 0;
+    }
+    .sectionName p {
+        margin-left: 37%;
+     }
+    .contact{
+        width: 300px;
+     }
+}
+
+@media (max-width:400px){
+    
+    .hero-text h1{
+        font-size: 40px;
+    }
+    .hero-text h2 {
+        margin-left: 30px;
+    }
+    .hero-text-btn {
+        margin-left: 90px;
+    }
+    .mobileIcon {
+        margin-left: 90px;
+    }
+    .contact{
+        width: 300px;
+     }
+     .contact .hero-text-btn{
+        margin-left: 70px;
+     }
+     .image{
+        margin-top: 250px;
+     }
+  
+     .sectionName
+     {
+        padding: 150px 0 0 0;
+    }
+    .skill1{
+        flex: 10%;
+    }
+    .skill2{
+        flex: 10%;
+    }
+
+}
+@media (max-width:380px){
+.skill1{
+    flex: 5%;
+    margin:  50px 4px;
+}
+.skill2{
+    flex: 5%;
+    margin:  50px 4px;
+}
+}
+@media (max-width:360px){
+
+    .sectionName p {
+        margin-left: 35%;
+    }
+    .hero-text h2 {
+        margin-left: 15px;
+    }
+    .hero-text-btn {
+        margin-left: 70px;
+    }
+    .mobileIcon {
+        margin-left: 70px;
+    }
+    .skill1{
+        flex: 30%;
+        margin: 100px 0;
+       
+    }
+    .skill2{
+        flex: 30%;
+        margin: 100px 0;
+    }
+    .skill1 h1, h2,.skill2 h1, h2{
+        border-radius: 60px;
+    }
+    .contact{
+        width: 250px;
+     }
+    }
